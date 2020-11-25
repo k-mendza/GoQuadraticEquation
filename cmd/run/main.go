@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	var quadEq = qe.NewQuadraticEquation(1,2,-3)
+	var quadEq = qe.NewQuadraticEquation(1, 2, 1)
 	fmt.Println(quadEq.GetRoots())
 }
